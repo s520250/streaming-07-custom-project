@@ -3,13 +3,26 @@
 # streaming-07-custom-project
 
 Author: Sammie Bever
-Date: February 14, 2023 
-Class: Streaming Data 
+Date: February 14, 2023
+Class: Streaming Data
 Assignment: Module 07
 
 For my custom project, I will be reading from a csv file using a producer. I will also have a consumer reading tasks from the queue.
 
-# Conditions & Alerts
+# Assignment Requirements
+Project: Build a unique custom streaming process based on what you've learned working with Python, pika, and RabbitMQ.
+
+## Option 1 - Custom Project for your GitHub Repo / Portfolio
+1. Create a custom GitHub project repo to showcase your skills. Done
+2. Describe and plan an new implementation using RabbitMQ for streaming data. Done
+3. Create one or more custom producers. Done - 1 producer
+4. Create one or more custom consumers. Done - 1 consumer
+5. You can simulate your initial data source using Faker or some other file - or read from an API (not too much, too often, or too fast!) Done - read from csv
+6. How did you explore exchanges and queues? I used the default exchange and 3 queues - low, medium, and high prices
+7. Did you use time windows? No.
+8. What made this an interesting streaming project for you? It is data from a video game that I enjoy playing. If these were live prices, it could help me earn money in the game. This could easily be applied to similar data in the real world as well.
+
+# Project Description
 ## Conditions
 low price queue = 0-80
 medium price queue = 81-130
@@ -44,19 +57,6 @@ Queues - I have 3 queues - low, medium, and high turnip prices.
 ## provide clickable links to the output of your simulation or process. 
 out_producer - https://github.com/s520250/streaming-07-custom-project/blob/main/out_producer.txt
 out_consumer - https://github.com/s520250/streaming-07-custom-project/blob/main/out_consumer.txt
-
-# Assignment Requirements
-Project: Build a unique custom streaming process based on what you've learned working with Python, pika, and RabbitMQ.
-
-## Option 1 - Custom Project for your GitHub Repo / Portfolio
-1. Create a custom GitHub project repo to showcase your skills. Done
-2. Describe and plan an new implementation using RabbitMQ for streaming data. Done
-3. Create one or more custom producers. Done - 1 producer
-4. Create one or more custom consumers. Done - 1 consumer
-5. You can simulate your initial data source using Faker or some other file - or read from an API (not too much, too often, or too fast!) Done - read from csv
-6. How did you explore exchanges and queues? I used the default exchange and 3 queues - low, medium, and high prices
-7. Did you use time windows? No.
-8. What made this an interesting streaming project for you? It is data from a video game that I enjoy playing. If these were live prices, it could help me earn money in the game. This could easily be applied to similar data in the real world as well.
 
 # Screenshots
 ## Producer & Consumer Running Concurrently
