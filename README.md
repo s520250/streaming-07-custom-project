@@ -62,6 +62,7 @@ Queues - I have 3 queues - low, medium, and high turnip prices.
 
 ## provide clickable links to the output of your simulation or process. 
 out_producer - https://github.com/s520250/streaming-07-custom-project/blob/main/out_producer.txt
+
 out_consumer - https://github.com/s520250/streaming-07-custom-project/blob/main/out_consumer.txt
 
 # Screenshots
