@@ -3,8 +3,11 @@
 # streaming-07-custom-project
 
 Author: Sammie Bever
+
 Date: February 14, 2023
+
 Class: Streaming Data
+
 Assignment: Module 07
 
 For my custom project, I will be reading from a csv file using a producer. I will also have a consumer reading tasks from the queue.
@@ -25,11 +28,14 @@ Project: Build a unique custom streaming process based on what you've learned wo
 # Project Description
 ## Conditions
 low price queue = 0-80
+
 medium price queue = 81-130
+
 high price queue = 131+
 
 ## Alerts
 Low price alert = below 60
+
 High price alert = above 160
 
 ## describe your unique steaming analytics project - what / why 
